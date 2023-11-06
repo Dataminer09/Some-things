@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Muddbutter!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            text-align: center;
+        }
+        header {
+            background-color: #4b367c;
+            color: #fff;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 36px;
+        }
+        .channel {
+            background-color: #fff;
+            border: 1px solid #ccc;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 10px;
+            display: inline-block;
+            text-align: left;
+        }
+        .channel h2 {
+            font-size: 24px;
+        }
+        .channel p {
+            font-size: 16px;
+        }
+        a.button {
+            display: inline-block;
+            background-color: #4b367c;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        a.button:hover {
+            background-color: #592e8b;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Muddbutter's Channels</h1>
+    </header>
+
+    <div class="channel">
+        <h2>Twitch Channel</h2>
+        <p>Join me on Twitch for live gaming streams and interactive fun!</p>
+        <a class="button" href="https://www.twitch.tv/lord_muddbutter" target="_blank">Visit Twitch</a>
+    </div>
+
+    <div class="channel">
+        <h2>Our Discord!</h2>
+        <p>Come chill in the muddbutter cave</p>
+        <a class="button" href="https://discord.gg/fPaP6tHU6P" target="_blank">Join Discord</a>
+    </div>
+
+    <div class="channel">
+        <h2>YouTube Channel</h2>
+        <p>Don't forget to subscribe to my YouTube channel for gaming content and more!</p>
+        <a class="button" href="https://www.youtube.com/channel/UCfuvT8XGFSO_JLzLfghCsoA" target="_blank">Watch on YouTube</a>
+    </div>
+</body>
+</html>
